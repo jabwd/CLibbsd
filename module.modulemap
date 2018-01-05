@@ -1,5 +1,5 @@
 module CLibbsd [system] {
-	header: "/usr/include/bsd/stdlib.h"
+	header "shim.h"
 	link "bsd"
 	export *
 }
