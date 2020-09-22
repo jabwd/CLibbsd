@@ -8,8 +8,7 @@ let package = Package(
 			"bsd",
 		]),
     ],
-    dependencies: [
-    ],
+    dependencies: [],
     targets: [
 		.systemLibrary(name: "bsd"),
     ]
